@@ -1,0 +1,21 @@
+.brand {
+  display: flex;
+  color: #ff8383;
+  font-weight: bold;
+  font-family: Oswald;
+  font-size: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin: 20px;
+  margin-bottom: 15px;
+}
+
+body {
+  color: rgb(87, 87, 87);
+  font-family: Open Sans;
+}
+
+p {
+  font-weight: 500;
+  line-height: 2;
+}
