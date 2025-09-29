@@ -1,18 +1,74 @@
-.brand {
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.brand {
   color: #ff8383;
+  margin: 0;
+  padding: 20px;
+
   font-weight: bold;
-  font-family: Oswald;
-  font-size: 40px;
-  border-radius: 20px;
-  padding-left: 20px;
-  margin: 20px;
-  margin-bottom: 15px;
+  font-family: "Oswald";
+  font-size: 65px;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+a {
+  font-size: 17px;
+  font-family: "Oswald";
+  color: rgb(114, 114, 114);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ff8383;
+}
+
+hr {
+  border-top: 4px solid #ff8383;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+main {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-right: 50px;
+  gap: 1rem;
+}
+
+li {
+  border: 2px solid #533833;
+  padding: 10px;
+  padding-right: 100px;
+  border-radius: 10px;
+
+  background-color: #533833;
+  color: white;
+
+  font-family: "Open";
+  font-size: 20px;
 }
 
 body {
   color: rgb(87, 87, 87);
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 
 p {
