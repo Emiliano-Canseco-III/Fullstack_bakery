@@ -1,13 +1,15 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 .brand {
-  color: #ff8383;
+  color: #e06e6e;
+
   margin: 0;
   padding: 20px;
+  padding-right: 0;
+  width: auto;
 
   font-weight: bold;
   font-family: "Oswald";
@@ -18,13 +20,14 @@ header {
 nav {
   display: flex;
   align-items: flex-end;
-  gap: 2rem;
-  padding-right: 10px;
+  gap: 3rem;
+
+  padding-right: 5px;
   padding-bottom: 5px;
 }
 
 a {
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Oswald";
   color: rgb(114, 114, 114);
   text-decoration: none;
@@ -35,10 +38,11 @@ a:hover {
   color: #ff8383;
 }
 
-hr {
+#hr1 {
   border-top: 4px solid #ff8383;
   border-radius: 10px;
   margin-top: 0;
+  width: auto;
 }
 
 main {
@@ -54,12 +58,12 @@ ul {
 }
 
 li {
-  border: 2px solid #533833;
+  border: 2px solid #646e84;
   padding: 10px;
   padding-right: 100px;
   border-radius: 10px;
 
-  background-color: #533833;
+  background-color: #646e84;
   color: white;
 
   font-family: "Open";
@@ -67,11 +71,46 @@ li {
 }
 
 body {
-  color: rgb(87, 87, 87);
+  color: #656f84;
   font-family: "Open Sans";
+  margin-bottom: 0;
 }
 
 p {
   font-weight: 500;
-  line-height: 2;
+  width: 90%;
+}
+
+h1 {
+  color: #646e84;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.testimonial {
+  background-color: rgba(211, 211, 211, 0.332);
+  width: 80%;
+  font-style: italic;
+  margin-left: 0;
+}
+
+blockquote {
+  padding-top: 10px;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+figcaption {
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+
+footer {
+  font-weight: 800;
+  margin-top: 3rem;
+  padding: 5px;
+  background-color: #e06e6e;
+  color: white;
+  text-align: center;
 }
